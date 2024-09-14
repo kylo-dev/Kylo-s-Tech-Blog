@@ -14,6 +14,8 @@ let text = `# Hi there 👋
 
 ## 📕 Latest Blog Posts
 
+`;
+
 // rss-parser 생성
 const parser = new Parser({
     headers: {
