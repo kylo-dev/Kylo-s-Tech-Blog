@@ -26,7 +26,7 @@ const parser = new Parser({
 (async () => {
 
     // 피드 목록
-    const feed = await parser.parseURL('https://kylo8.tistory.com');
+    const feed = await parser.parseURL('https://kylo8.tistory.com/rss');
     
     text += `<ul>`;
     
