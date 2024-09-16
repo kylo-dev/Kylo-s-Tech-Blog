@@ -7,7 +7,7 @@ on:
     branches: [ main ]
   # 18, 20, 22, 23시에 script 실행
   schedule:
-    - cron: "0 18,20,22,23 * * *"
+    - cron: "0 9,11,13,14 * * *"
 
 jobs:
   build:
